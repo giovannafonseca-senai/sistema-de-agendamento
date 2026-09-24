@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1e293b;
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+    padding: 20px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #2563eb;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.conteudo {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.subtitulo {
+    font-size: 18px;
+    color: #475569;
+    margin-bottom: 28px;
+}
+
+.pesquisa {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.titulo_pesquisa {
+    margin-bottom: 8px;
+    color: #334155;
+}
+
+#pesquisa_escola {
+    width: 100%;
+    padding: 14px 18px;
+    background-color: #e6ecf5;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.escolas {
+    width: 100%;
+    background-color: #e6ecf5;
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+
+.titulo_escolas {
+    padding: 14px;
+    color: #334155;
+    font-weight: bold;
+}
+
+.escolas p {
+    padding: 14px 18px;
+    border-top: 1px solid #cbd5e1;
+    text-align: left;
+    color: #1e293b;
+}
+
+.botaocontinuar {
+    width: 220px;
+    padding: 12px 0;
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+}
