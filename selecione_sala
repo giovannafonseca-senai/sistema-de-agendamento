@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selecione a sala - Roomly</title>
+    <link rel="stylesheet" href="selecione_escola.css">
+</head>
+
+<body>
+
+    <div class="cabecalho">
+
+        <div class="logo">
+            <span>📅</span>
+            <span>Roomly</span>
+        </div>
+
+    </div>
+
+    <div class="conteudo">
+
+        <h1>Escolha a sala</h1>
+
+        <p class="subtitulo">
+            Selecione a sala que deseja reservar.
+        </p>
+
+
+        </div>
+
+        <div class="escolas">
+
+            <p class="titulo_escolas">
+                Salas disponíveis
+            </p>
+
+            <p>Biblioteca</p>
+
+            <p>Laboratórios</p>
+
+            <p>Quadra</p>
+
+            <p>Sala de informatica</p>
+
+            <p>Teatro</p>
+
+        </div>
+
+        <main class="container">
+    <h1>Selecione um dia e horário</h1>
+    <p class="subtitle">Selecione um dia e horário para utilizar a sala</p>
+
+    <label for="categoria">Categoria</label>
+    <input type="date" id="ca" name="categoria" placeholder="Selecionar Data">
+    </select>
+
+        <a href="agendamento_confirmado.html"  class="botaocontinuar">
+            Continuar
+        </a>
+
+    </div>
+
+</body>
+
+</html>
