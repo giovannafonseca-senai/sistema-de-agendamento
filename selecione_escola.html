@@ -1,45 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selecione sua escola</title>
-    <link rel="stylesheet" href="style.css">
-
-    <div class="pesquise">
-      <label>🔍 Pesquise sua escola</label>
-      <input type="text" placeholder="Digite o nome da escola">
-    </div>
-
-    <section>
-        <article>
-                <h3>Selecione a sua escola</h3>
-                <p>Escolha a escola onde deseja realizar o agendamento</p
-                    <div class="escolas">
-                        <label for="selecioneEsola">Selecione sua escola</label>
-                        <select id="selecioneEsola">
-                            <option value="">Selecione a categoria do produto</option>
-                            <option>Jesuino de Arruda</option>
-                            <option>Gabriel Felix do Amaral</option>
-                            <option>Maria Ramos</option>
-                            <option>Arlindo</option>
-                        </select>
-     
-    </div>
-
-     
-        </article> 
-
-        <div class="botoes">
-                <a href="#">
-                    <button type="button">Continuar</button>
-                </a>
-    </section>
-
-
-
+    <title>Escolha sua escola - Roomly</title>
+    <link rel="stylesheet" href="selecione_escola.css">
 </head>
+
 <body>
-    
+
+    <div class="cabecalho">
+
+        <div class="logo">
+            <span>📅</span>
+            <span>Roomly</span>
+        </div>
+
+    </div>
+
+    <div class="conteudo">
+
+        <h1>Escolha sua escola</h1>
+
+        <p class="subtitulo">
+            Selecione a escola onde deseja realizar o agendamento.
+        </p>
+
+        <div class="pesquisa">
+
+            <p class="titulo_pesquisa">
+                🔍 Pesquise sua escola
+            </p>
+
+            <input
+                type="text"
+                id="pesquisa-escola"
+                placeholder="Digite o nome da escola">
+
+        </div>
+
+        <div class="escolas">
+
+            <p class="titulo_escolas">
+                Escolas disponíveis
+            </p>
+
+            <p>E. E. Jesuíno de Arruda</p>
+
+            <p>Escola Estadual Álvaro Guião</p>
+
+            <p>Escola Estadual Gabriel Felix do Amaral</p>
+
+            <p>Escola Estadual Conde do Pinhal</p>
+
+        </div>
+
+        <a href="agendamento_confirmado.html"  class="botaocontinuar">
+            Continuar
+        </a>
+
+    </div>
+
 </body>
+
 </html>
