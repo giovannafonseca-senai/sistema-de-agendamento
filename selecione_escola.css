@@ -18,7 +18,7 @@ body {
     align-items: center;
 }
 
-.logo {
+/*.logo {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -29,7 +29,7 @@ body {
     font-size: 20px;
     color: #2563eb;
 }
-
+*/
 .caixa {
     width: 100%;
     max-width: 500px;
