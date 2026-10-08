@@ -1,121 +1,160 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #f8fafc;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
+    color: #1e293b;
+    font-family: Arial, sans-serif;
 }
 
-.header {
-    width: 100%;
-    background-color: #ffffff;
-    padding: 15px 40px;
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
+.cabecalho {
+    padding: 20px 40px;
 }
 
-/*.logo {
+.logo {
     display: flex;
     align-items: center;
-    gap: 10px;
-}
-
-.logo-text {
-    font-weight: bold;
-    font-size: 20px;
+    gap: 8px;
     color: #2563eb;
-}
-*/
-.caixa {
-    width: 100%;
-    max-width: 500px;
-    margin: 40px auto;
-    background-color: #ffffff;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 24px;
 }
 
-form {
+.conteudo {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
+    font-size: 35px;
     color: #1e293b;
-    margin: 0 0 10px 0;
-    font-size: 26px;
+    margin-bottom: 8px;
 }
 
 .subtitulo {
-    text-align: center;
-    color: #64748b;
-    font-size: 14px;
-    margin: 0 0 30px 0;
-}
-
-.card_escola{
-    border: 1px solid #cbd5e1;
-    border-radius: 12px;
-    background-color: #ffffff;
-    overflow: hidden;
-    margin-bottom: 30px;
-}
-
-.card{
-    background-color: #f1f5f9;
-    padding: 14px 20px;
-    font-weight: bold;
+    font-size: 18px;
     color: #475569;
-    font-size: 14px;
-    border-bottom: 1px solid #cbd5e1;
-    text-align: left;
+    margin-bottom: 28px;
 }
 
-.lista_escola{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.lista_escola li {
-    padding: 16px 20px;
-    color: #334155;
-    font-size: 14px;
-    border-bottom: 1px solid #e2e8f0;
-    cursor: pointer;
-    text-align: left;
-    transition: background-color 0.2s, color 0.2s;
-}
-
-.lista_escola li:last-child {
-    border-bottom: none;
-}
-
-.lista_escola:hover {
-    background-color: #eff6ff;
-    color: #2563eb;
-}
-
-.btn-primary {
+.pesquisa {
     width: 100%;
-    padding: 14px;
+    margin-bottom: 24px;
+}
+
+.titulo_pesquisa {
+    margin-bottom: 1px;
+    color: #334155;
+}
+
+#pesquisa_escola {
+    width: 100%;
+    padding: 14px 18px;
+    background-color: #e6ecf5;
     border: none;
-    border-radius: 30px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.escolas {
+    width: 100%;
+    background-color: #e6ecf5;
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+
+.titulo_escolas {
+    padding: 14px;
+    color: #334155;
+    font-weight: bold;
+}
+
+.escolas p {
+    padding: 14px 18px;
+    border-top: 1px solid #cbd5e1;
+    text-align: left;
+    color: #1e293b;
+}
+
+.botaocontinuar {
+    width: 200px;
+    padding: 12px 0;
     background-color: #2563eb;
     color: white;
+    text-align: center;
+    font-size: 18px;
     font-weight: bold;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.2s;
+    text-decoration: none;
+    border-radius: 10px;   
 }
 
-.btn-primary:hover {
-    background-color: #1d4ed8;
+
+
+label{
+    font-family: Arial, sans-serif;
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 18x
+    
+    
+}
+.continue{
+    padding: 10px 0;
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;  
+    width: 13%;
+    display: flex;
+
+}
+
+.container{
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+button{
+    margin-top: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.butao{
+   padding: 1px;
+    margin-top: 20px;
+    border: 1px solid #f8fafc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.horario{
+    width: 100%;
+    background-color: #e6ecf5;
+    border-radius: 12px;
+    margin-bottom: 32px;
+
 }
