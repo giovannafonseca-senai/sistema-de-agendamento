@@ -1,81 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #f8fafc;
-    margin: 0; 
+    margin: 0;
+    min-height: 100vh;
+
+
     display: flex;
     justify-content: center;
-    align-items: center; 
-    min-height: 100vh;
-}
-.conteudo {
-    width: 90%;
-    max-width: 600px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
+
+
+    padding: 20px;
 }
+
+
+.conteudo {
+    width: 100%;
+    max-width: 500px;
+}
+
 
 h1 {
-    font-size: 35px;
+    text-align: center;
     color: #1e293b;
-    margin-bottom: 8px;
+    font-size: 28px;
+    margin-bottom: 15px;
 }
+
 
 .subtitulo {
-    font-size: 18px;
-    color: #475569;
-    margin-bottom: 28px;
+    text-align: center;
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
 }
 
-.pesquisa {
-    width: 100%;
-    margin-bottom: 24px;
-}
-
-.titulo_pesquisa {
-    margin-bottom: 1px;
-    color: #334155;
-}
-
-#pesquisa_escola {
-    width: 100%;
-    padding: 14px 18px;
-    background-color: #e6ecf5;
-    border: none;
-    border-radius: 12px;
-    font-size: 16px;
-}
 
 .escolas {
-    width: 100%;
-    background-color: #e6ecf5;
+    background-color: #e8edf7;
     border-radius: 12px;
-    margin-bottom: 32px;
+    overflow: hidden;
+    margin-bottom: 25px;
 }
+
 
 .titulo_escolas {
-    padding: 14px;
-    color: #334155;
+    padding: 18px 15px;
+    margin: 0;
     font-weight: bold;
+    color: #1e293b;
+    border-bottom: 1px solid #d4dce9;
 }
 
-.escolas p {
-    padding: 14px 18px;
-    border-top: 1px solid #cbd5e1;
-    text-align: left;
-    color: #1e293b;
+
+.opcao {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+
+    padding: 16px 15px;
+
+
+    color: #334155;
+    font-size: 14px;
+
+
+    border-bottom: 1px solid #d4dce9;
+    cursor: pointer;
+
+
+    transition: background-color 0.2s, color 0.2s;
 }
+
+
+.opcao:last-child {
+    border-bottom: none;
+}
+
+
+.opcao:hover {
+    background-color: #dbe6fa;
+}
+
+
+.opcao input {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    accent-color: #2563eb;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+
+/* destaca a sala selecionada */
+.opcao:has(input:checked) {
+    background-color: #dbeafe;
+    color: #1d4ed8;
+    font-weight: bold;
+    box-shadow: inset 4px 0 #2563eb;
+}
+
+
+.opcao:has(input:focus-visible) {
+    outline: 2px solid #2563eb;
+    outline-offset: -2px;
+}
+
 
 .botaocontinuar {
-    width: 200px;
-    padding: 12px 0;
-    background-color: #2563eb;
+    display: block;
+    width: 180px;
+    max-width: 100%;
+    margin: 0 auto;
+
+
+    padding: 13px;
+
+
+    border: none;
+    border-radius: 10px;
+
+
+    background-color: #3659e3;
     color: white;
-    text-align: center;
-    font-size: 18px;
+
+
+    font-family: inherit;
+    font-size: 15px;
     font-weight: bold;
-    text-decoration: none;
-    border-radius: 10px;   
+
+
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+.botaocontinuar:hover {
+    background-color: #2446c5;
+}
+
+
+.botaocontinuar:focus-visible {
+    outline: 3px solid #93c5fd;
+    outline-offset: 3px;
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+
+    .opcao {
+        padding: 17px 12px;
+    }
 }
