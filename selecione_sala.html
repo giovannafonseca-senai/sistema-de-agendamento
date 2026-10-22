@@ -1,48 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <title>Selecione a sala - Roomly </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecione a sala - Roomly</title>
     <link rel="stylesheet" href="selecione_sala.css">
 </head>
+
 
 <body>
 
 
     <div class="conteudo">
 
+
         <h1>Escolha a sala</h1>
+
 
         <p class="subtitulo">
             Selecione a sala onde deseja realizar o agendamento.
         </p>
 
 
-        <div class="escolas">
+        <form action="selecione_horario.html" >
 
-            <p class="titulo_escolas">
-                Salas Disponíveis
-            </p>
 
-            <p>Biblioteca</p>
+            <div class="escolas">
 
-            <p>Laboratórios</p>
 
-            <p>Quadra</p>
+                <p class="titulo_escolas">Salas disponíveis</p>
 
-            <p>Sala de Informática</p>
 
-            <p>Teatro</p>
+                <label class="opcao">
+                    <input type="radio" name="sala" value="Biblioteca" required>
+                    <span>Biblioteca</span>
+                </label>
 
-        </div>
 
-        <a href="selecione_horario.html"  class="botaocontinuar">
-            Continuar
-        </a>
+                <label class="opcao">
+                    <input type="radio" name="sala" value="Laboratórios">
+                    <span>Laboratórios</span>
+                </label>
+
+
+                <label class="opcao">
+                    <input type="radio" name="sala" value="Quadra">
+                    <span>Quadra</span>
+                </label>
+
+
+                <label class="opcao">
+                    <input type="radio" name="sala" value="Sala de Informática">
+                    <span>Sala de Informática</span>
+                </label>
+
+
+                <label class="opcao">
+                    <input type="radio" name="sala" value="Teatro">
+                    <span>Teatro</span>
+                </label>
+
+
+            </div>
+
+
+            <button type="submit" class="botaocontinuar">
+                Continuar
+            </button>
+
+
+        </form>
+
 
     </div>
 
-</body>
 
+</body>
 </html>
