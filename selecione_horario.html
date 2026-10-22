@@ -1,39 +1,54 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
+<html lang="pt-BR">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selecione Horário - Roomly</title>
-    <link rel="stylesheet" href="selecione_escola.css">
- </head>
+    <link rel="stylesheet" href="selecione_horario.css">
+</head>
+<body>
 
 
+    <div class="container">
 
- <body>
-     <div class="container">
-    <h1>Selecione um dia e horário</h1>
-    <p>Selecione um dia e horário para utilizar a sala</p>
+
+        <h1>Selecione um dia e horário</h1>
+
+
+        <p>Selecione a data e o período para utilizar a sala.</p>
+
+
+        <form action="confirmar_agendamento.html">
+
+
+            <div class="campo">
+                <label for="data">Data</label>
+                <input type="date" id="data" name="data" required>
+            </div>
+
+
+            <div class="campo">
+                <label for="horaInicio">Horário de início</label>
+                <input type="time" id="horaInicio" name="horaInicio" required>
+            </div>
+
+
+            <div class="campo">
+                <label for="horaFim">Horário de término</label>
+                <input type="time" id="horaFim" name="horaFim" required>
+            </div>
+
+
+            <button type="submit" class="continue">
+                Continuar
+            </button>
+
+
+        </form>
+
+
     </div>
-    
 
-    <div class="horario">
-    <label for="categoria">Data</label>
-    <input type="date" id="categoria" name="categoria">
-        
-        
-    <label for="hora">Horario</label>
-    <input type="time" id="hora" name="hora">
-   
-   </div>
 
-   
-   <div class="butao">
-   <button href="agendamento_confirmado.html"  class="continue">
-            Continuar
-        </button>
-    </div>
-        
-    </div>
-
- </body>
- </html>
+</body>
+</html>
