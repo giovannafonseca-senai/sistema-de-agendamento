@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <title>Escolha sua escola - Roomly</title>
-    <link rel="stylesheet" href="selecione_escola.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecione a sala - Roomly</title>
+    <link rel="stylesheet" href="selecione_sala.css">
 </head>
+
 
 <body>
 
 
     <div class="conteudo">
 
+
         <h1>Escolha sua escola</h1>
+
 
         <p class="subtitulo">
             Selecione a escola onde deseja realizar o agendamento.
         </p>
 
-    
 
-        <div class="escolas">
+        <form action="selecione_sala.html" >
 
-            <p class="titulo_escolas">
-                Escolas disponíveis
-            </p>
 
-            <p>E. E. Jesuíno de Arruda</p>
+            <div class="escolas">
 
-            <p>Escola Estadual Álvaro Guião</p>
 
-            <p>Escola Estadual Gabriel Felix do Amaral</p>
+                <p class="titulo_escolas">Escolas disponíveis</p>
 
-            <p>Escola Estadual Conde do Pinhal</p>
 
-        </div>
+                <label class="opcao">
+                    <input type="radio" name="sala" value="Biblioteca" required>
+                    <span>Jesuíno de Arruda</span>
+                </label>
 
-        <a href="selecione_sala.html"  class="botaocontinuar">
-            Continuar
-        </a>
+
+                <label class="opcao">
+                    <input type="radio" name="sala" value="Laboratórios">
+                    <span>Gabriel Félix do Amaral</span>
+                </label>
+
+
+                <label class="opcao">
+                    <input type="radio" name="sala" value="Quadra">
+                    <span>Maria Ramos</span>
+                </label>
+
+
+                <label class="opcao">
+                    <input type="radio" name="sala" value="Sala de Informática">
+                    <span>Arlindo Bittencourt</span>
+                </label>
+
+
+                <label class="opcao">
+                    <input type="radio" name="sala" value="Teatro">
+                    <span>Alvaro Guião</span>
+                </label>
+
+
+            </div>
+
+
+            <button type="submit" class="botaocontinuar">
+                Continuar
+            </button>
+
+
+        </form>
+
 
     </div>
 
-</body>
 
+</body>
 </html>
