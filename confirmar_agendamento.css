@@ -58,3 +58,40 @@ p {
 .botaocontinuar:hover {
     background-color: #1d4ed8;
 }
+.menu_lateral{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    left:0;
+    top:0;
+    padding: 30px 20px;
+
+}
+/*LOGO*/
+.menu_lateral h1{
+    color: rgb(129, 171, 250);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu_lateral nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.menu_lateral a{
+    color: rgb(82, 170, 252);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.menu_lateral a:hover{
+    background-color: rgb(54, 101, 253);
+    color: beige;
+
+}
