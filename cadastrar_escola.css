@@ -1,0 +1,166 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8fafc;
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+}
+h1 {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+p {
+    text-align: center;
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #0f172a;
+    font-size: 14px;
+}
+
+
+input {
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 2px solid #cbd5e1; 
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #ffffff;
+    transition: all 0.2s ease; 
+}
+
+
+input:focus {
+    outline: none;
+    border-color: #2563eb; 
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+}
+
+
+
+   form > a {
+    font-size: 13px;
+    color: #2563eb;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+form > a:hover {
+    text-decoration: underline;
+}
+
+.botoes {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+
+.botoes a {
+    width: 100%;
+    display: flex;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px; 
+    background-color: #2563eb;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+
+form > a:last-child {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.menu_lateral{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    left:0;
+    top:0;
+    padding: 30px 20px;
+
+}
+/*LOGO*/
+.menu_lateral h1{
+    color: rgb(129, 171, 250);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu_lateral nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.menu_lateral a{
+    color: rgb(82, 170, 252);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.menu_lateral a:hover{
+    background-color: rgb(54, 101, 253);
+    color: beige;
+
+}
+
+.conteudoo{
+    padding: 60px 40px;
+}
+
+
+.conteudoo h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.subtitulo {
+    font-weight: bold;
+    margin: 6px 0 40px 24px;
+}
+
+
+.conteudoo h2 {
+    font-size: 14px;
+    margin-bottom: 14px;
+    margin-left: 10px;
+}
+.conteudoo{
+    margin-left: 250px;
+    padding: 40px;
+
+}
